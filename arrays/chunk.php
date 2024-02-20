@@ -1,0 +1,1 @@
+// array_ chunk divide os arrays em partes iguais
