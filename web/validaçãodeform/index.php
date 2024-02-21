@@ -9,7 +9,7 @@ if(count($_POST) > 0){
         $validacoes[] = "preencha o email";
     }
     if($_POST['senha'] != $_POST['confirmacao']){
-        $validacoes[] = "as senhas devem ser iguias";
+        $validacoes[] = "as senhas devem ser iguais!";
     }
 }
 ?>
