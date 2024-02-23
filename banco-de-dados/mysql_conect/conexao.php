@@ -5,5 +5,3 @@ $pass = "";
 $db = "cursophp";
 
 $conexao = new mysqli("localhost", "root", "", "cursophp");
-
-?>
