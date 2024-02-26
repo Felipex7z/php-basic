@@ -1,10 +1,7 @@
 <?php
-
-
+$db = "daoteste2";
 $host = "localhost";
-$db = "daoteste";
-
 $user = "root";
-$pass= "";
+$pass = "";
 
-$conn = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+$conn = new PDO("mysql:dbname=$db;host=$host", $user, $pass);
